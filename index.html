@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#F5F8FF" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <title>Expiry</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <div class="title">Expiry</div>
+        <div class="subtitle">Validade após abertura</div>
+      </div>
+    </div>
+    <button id="btnAdd" class="btn primary">+ Novo</button>
+  </header>
+
+  <main id="app" class="container">
+    <section class="card">
+      <div class="h1">A carregar…</div>
+      <div class="small muted">Se estiveres a ver isto, o HTML já está OK.</div>
+    </section>
+  </main>
+
+  <nav class="tabbar">
+    <button class="tab active" data-route="#/home">
+      <span class="icon">🏠</span><span>Home</span>
+    </button>
+    <button class="tab" data-route="#/scan">
+      <span class="icon">📷</span><span>Scan</span>
+    </button>
+    <button class="tab" data-route="#/settings">
+      <span class="icon">⚙️</span><span>Definições</span>
+    </button>
+  </nav>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
